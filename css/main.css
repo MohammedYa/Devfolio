@@ -1,0 +1,410 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    background-color: rgb(4, 4, 4,.7);
+}
+.nav-link,.navbar-brand{
+    color: #fff!important;
+}
+.navbar-brand{
+    font-size:25px;
+}
+.home{
+    height: 100vh;
+    position: relative;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.jop::after{
+    color:#ff305b;
+    content: "|";
+    animation-name:typing ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing{ 
+    1%{content:"p|"}
+    2%{content:"ph|"}
+    3%{content:"pho|"}
+    3%{content:"phot|"}
+    4%{content:"photo|"}
+    5%{content:"photog|"}
+    6%{content:"photogr|"}
+    7%{content:"photogra|"}
+    10%{content:"photograp|"}
+    11%{content:"photograph|"}
+    014%{content:"photographe|"}
+    16%{content:"photographer|"}
+    18%{content:"photographe|"}
+    20%{content:"photograph|"}
+    22%{content:"photograp|"}
+    24%{content:"photogra|"}
+    26%{content:"photogr|"}
+    28%{content:"photog|"}
+    29%{content:"photo|"}
+    30%{content:"phot|"}
+    33%{content:"pho|"}
+    36%{content:"ph|"}
+    38%{content:"p|"}
+    39%{content:"|"}
+    40%{content:"De|"}
+    42%{content:"Des|"}
+    44%{content:"Desi|"}
+    45%{content:"Desig|"}
+    46%{content:"Design|"}
+    47%{content:"Designe|"}
+    48%{content:"Designer|"}
+    50%{content:"Designe|"}
+    52%{content:"Design|"}
+    55%{content:"Desig|"}
+    58%{content:"Desi|"}
+    60%{content:"Des|"}
+    62%{content:"De|"}
+    63%{content:"D|"}
+    66%{content:"|"}
+    67%{content:"De|"}
+    69%{content:"Dev|"}
+    71%{content:"Deve|"}
+    73%{content:"Devel|"}
+    76%{content:"Develo|"}
+    78%{content:"Develop|"}
+    80%{content:"Develope|"}
+    82%{content:"Developer|"}
+    84%{content:"Develope|"}
+    85%{content:"Develop|"}
+    88%{content:"Develo|"}
+    90%{content:"Devel|"}
+    92%{content:"Deve|"}
+    94%{content:"Dev|"}
+    96%{content:"De|"}
+    98%{content:"D|"}
+    99%{content:"|"}
+    100%{content:""}
+
+
+}
+.layer{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name,.job{
+    color: #fff !important;
+    font-size: 3rem;
+}
+.about{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:#F5F5F5;
+}
+.card{
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    width: 80%;
+    margin: auto;
+    line-height: 2;
+}
+.dis div{
+    margin-top: 30px;
+}
+.services{
+    padding-top: 50px;
+    background-color: #F5F5F5;
+}
+.item{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.caption{
+    position: relative;
+}
+.caption:after{
+content: "";
+height: 4px;
+width: 50px;
+background-color: aqua;
+position: absolute;
+bottom: -20%;
+right: 49%;
+}
+.line{
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 1pt;
+}
+.icon{
+    font-size: 12px;
+    margin-bottom: 2rem;
+    color: #1e1e1e;
+}
+.ico-circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+.icon:hover .ico-circle{
+    box-shadow: 0 0 0 10px #CDE1F8;
+    color: #CDE1F8;
+    background-color: #0078ff;
+
+}
+.disc{
+    font-size: 20px;
+    line-height:1.5 ;
+}
+.animation{
+    height: 400px;
+  position: relative;
+  background-image: url("../images/counters-bg.jpg"); 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+}
+.layeran{
+color:#fff;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 120, 255,.6);
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.ico,.test3,.test1{
+    transform: translate(-40%,20px);
+}
+.num{
+    margin-top: 3rem;
+}
+.ico{
+    margin-bottom: 2rem;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 ;
+    text-align: center;
+    box-shadow: 0 0 0 10px #F5F5F5;
+    justify-content: center;
+    align-items: center;
+}
+.PorTFoLio{
+    padding-top: 50px;
+    background-color: #F5F5F5;
+}
+.PorTFoLio .row h3{
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.sp{
+    
+    color: #0078ff;
+    font-size:small;
+}
+.workdisc{
+    background-color: #fff;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        line-height: 1.55;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: 0 0 0 5px #0078ff;
+      
+        transition: all 1s;
+    
+}
+.image{
+    transition: all 1s;
+}
+.workbox{
+overflow: hidden;
+}
+.contan:hover .image{
+transform: scale(1.5,1.5);
+}
+.layerwork{
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.work{
+    width: 60%;
+    height:500px;
+    background-image: url('../images/work-1.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.close{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    color:#0078ff !important;
+
+}
+.prev{
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    color:#0078ff !important;
+
+}
+.next{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    color:#0078ff !important;
+
+}
+.blog{
+    background-color: #F5F5F5;
+}
+.img{
+    width: 100%;
+    height: 50%;
+}
+.idea{
+    text-decoration: none;
+    font-size: 25px;
+    color: #1e1e1e;
+    font-weight: bolder;
+}
+.idea:hover{
+    color: #0078ff;
+}
+.blogdisc{
+    margin: 20px 0px;
+}
+.pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.creater a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+.creater a:hover{
+    color: #0078ff;
+}
+.creater{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+.kard{
+    box-shadow: 10px 10px 8px #ccc;
+}
+.us{
+    position: relative;
+}
+.us::after{
+content: "";
+height: 4px;
+width: 30%;
+background-color: aqua;
+position: absolute;
+bottom: -30%;
+left: 0%;
+}
+.blogdisc{
+    line-height: 2;
+}
+.conicon i{
+    
+ color: #0078ff;
+}
+.faicon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.faicon span{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 5px #0078ff;
+      
+    transition: all 200ms;
+}
+.faicon span:hover{
+    box-shadow: 0 0 0 5px #ccc;
+    color: #0078ff;
+
+}
+.send{
+    border-radius: 20px;
+}
+.contact{
+position: relative;
+background-image: url("../images/overlay-bg.jpg");
+background-size: cover;
+background-position: center center ;
+position: relative;
+
+}
+.conlayer{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 120, 255,.6);
+position: relative;
+}
+.concard{
+    position: absolute;
+    top:10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    margin:  auto;
+    border-radius: 10px;
+    background-color: #fff;
+}
+footer{
+   text-align: center;
+   background-color: #0078ff;
+   color: #fff;
+   padding: 10px;
+}
+footer span{
+    font-size: 20px;
+    font-weight: bolder;
+}
