@@ -1,0 +1,55 @@
+.services{
+  
+    background-color: #F5F5F5;
+}
+.item{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #CDE1F8;
+}
+.caption{
+    position: relative;
+}
+.caption:after{
+content: "";
+height: 4px;
+width: 50px;
+background-color: aqua;
+position: absolute;
+bottom: -20%;
+right: 49%;
+}
+.line{
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 1pt;
+}
+.icon{
+    font-size: 12px;
+    margin-bottom: 2rem;
+    color: #1e1e1e;
+}
+.ico-circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+.icon:hover .ico-circle{
+    box-shadow: 0 0 0 10px #CDE1F8;
+    color: #CDE1F8;
+    background-color: #0078ff;
+
+}
+.disc{
+    font-size: 20px;
+    line-height:1.5 ;
+}

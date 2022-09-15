@@ -1,0 +1,88 @@
+.home{
+    height: 100vh;
+    position: relative;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.jop::after{
+    color:#fff;
+    content: "|";
+    animation-name:typing ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{ 
+    1%{content:"p|"}
+    2%{content:"ph|"}
+    3%{content:"pho|"}
+    3%{content:"phot|"}
+    4%{content:"photo|"}
+    5%{content:"photog|"}
+    6%{content:"photogr|"}
+    7%{content:"photogra|"}
+    10%{content:"photograp|"}
+    11%{content:"photograph|"}
+    014%{content:"photographe|"}
+    16%{content:"photographer|"}
+    18%{content:"photographe|"}
+    20%{content:"photograph|"}
+    22%{content:"photograp|"}
+    24%{content:"photogra|"}
+    26%{content:"photogr|"}
+    28%{content:"photog|"}
+    29%{content:"photo|"}
+    30%{content:"phot|"}
+    33%{content:"pho|"}
+    36%{content:"ph|"}
+    38%{content:"p|"}
+    39%{content:"|"}
+    40%{content:"De|"}
+    42%{content:"Des|"}
+    44%{content:"Desi|"}
+    45%{content:"Desig|"}
+    46%{content:"Design|"}
+    47%{content:"Designe|"}
+    48%{content:"Designer|"}
+    50%{content:"Designe|"}
+    52%{content:"Design|"}
+    55%{content:"Desig|"}
+    58%{content:"Desi|"}
+    60%{content:"Des|"}
+    62%{content:"De|"}
+    63%{content:"D|"}
+    66%{content:"|"}
+    67%{content:"De|"}
+    69%{content:"Dev|"}
+    71%{content:"Deve|"}
+    73%{content:"Devel|"}
+    76%{content:"Develo|"}
+    78%{content:"Develop|"}
+    80%{content:"Develope|"}
+    82%{content:"Developer|"}
+    84%{content:"Develope|"}
+    85%{content:"Develop|"}
+    88%{content:"Develo|"}
+    90%{content:"Devel|"}
+    92%{content:"Deve|"}
+    94%{content:"Dev|"}
+    96%{content:"De|"}
+    98%{content:"D|"}
+    99%{content:"|"}
+    100%{content:""}
+
+
+}
+.homelayer{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name,.job{
+    color: #fff !important;
+    font-size: 3rem;
+}

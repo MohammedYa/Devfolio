@@ -1,0 +1,112 @@
+.animation{
+    height: 400px;
+  position: relative;
+  background-image: url("../images/counters-bg.jpg"); 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+}
+.layeran{
+color:#fff;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 120, 255,.6);
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.ico,.test3,.test1{
+    transform: translate(-40%,20px);
+}
+.num{
+    margin-top: 3rem;
+}
+.ico{
+    margin-bottom: 2rem;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 ;
+    text-align: center;
+    box-shadow: 0 0 0 10px #F5F5F5;
+    justify-content: center;
+    align-items: center;
+}
+.PorTFoLio{
+    padding-top: 50px;
+    background-color: #F5F5F5;
+}
+.PorTFoLio .row h3{
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.sp{
+    
+    color: #0078ff;
+    font-size:small;
+}
+.workdisc{
+    background-color: #fff;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        line-height: 1.55;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: 0 0 0 5px #0078ff;
+      
+        transition: all 1s;
+    
+}
+.image{
+    transition: all 1s;
+}
+.workbox{
+overflow: hidden;
+}
+.contan:hover .image{
+transform: scale(1.5,1.5);
+}
+.layerwork{
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.work{
+    width: 60%;
+    height:500px;
+    background-image: url('../images/work-1.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.close{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    color:#0078ff !important;
+
+}
+.prev{
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    color:#0078ff !important;
+
+}
+.next{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    color:#0078ff !important;
+
+}

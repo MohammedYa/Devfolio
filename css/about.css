@@ -1,0 +1,26 @@
+
+.about{
+   
+   margin-top: 100px;
+   margin-bottom: 100px ;
+   margin-left: 10%;
+   width: 80%;
+   border-radius: 20px;
+    background-color:#fff;
+}
+.dis div{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.tit{
+    position: relative;
+}
+.tit::after{
+content: "";
+width: 100px;
+height: 4px;
+background-color: #09c;
+position: absolute;
+top: 110%;
+left: 0px;
+}
